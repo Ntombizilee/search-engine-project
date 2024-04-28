@@ -17,7 +17,7 @@ body {
 
   width: 80%;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 15px 20px;
   font-size: 16px;
 }
@@ -33,8 +33,8 @@ body {
 }
 
 .weather-app-city {
-  font-size: 30px;
-  margin: 0 auto;
+  font-size: 38px;
+  margin: 0;
   line-height: 48px;
 }
 
@@ -87,14 +87,14 @@ a {
 
 .weather-app-temperature {
   font-size: 88px;
-  margin-left: 10px;
   font-weight: bold;
   color: pink;
+  line-height: 88px;
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-unit {
