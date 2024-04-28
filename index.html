@@ -11,13 +11,14 @@
     <title>Meteo App</title>
   </head>
   <body>
-    <div class="weather-app">
+    <div class="weather-app" id="search-form">
       <header>
         <form class="search-form">
           <input
             type="search"
             placeholder="Enter a city..🎀"
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -26,7 +27,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
               Tuesday 14:49, scattered clouds
               <br />
@@ -58,5 +59,6 @@
         >hosted on Netlify</a
       >
     </footer>
+    <script src="src/app.js"></script>
   </body>
 </html>
